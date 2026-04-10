@@ -1,0 +1,51 @@
+1. What conclusion can you reach about the responses to this question?
+Questions:
+1. It seems like everyone is looking to prepare for the class and refresh their understanding.
+2. Looks like most people either have two monitors or at least another device
+3. The majority have at least an external mouse or keyboard.
+4. Most people are going to use electronics to take notes
+5. There isn't a general question here but everyone is trying to push further in the field of da
+
+2. Is the default summary or visualization helpful? How could it be improved?
+Questions:
+1. Not really more so, it more so just shows a lot of text questions. I believe it could be improved by fixing the question to be multiple choice
+2. It is ok, how ever same as the first it needs multiple choice instead of just other.
+3. This is a good visualization. I believe it has the same issue however of not knowing what the other responses are just by the chart. I believe there should give less              nuance.
+4. This is a good visualization. Problem is the other
+5. Not a good chart for open-ended questions
+
+3. For questions with an “Other” option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+Questions:
+1.You would have to pull it up in excel format, it can be hard because analyzing these shows a lot of possible responses
+
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+Questions:
+1. It is more difficult to get the general consensus 
+
+
+5. Now that you can see the responses, how might you recommend rephrasing this or question or the response options in a future survey?
+Questions:
+1. This question I would give a few common options and see what is most chosen
+2. I would only leave the question as do you have more than one monitor and it be yes or no, no other option
+3. Same as number two but instead it would be "Do you have an external mouse, or keyboard." The answers would be keyboard, mouse, both, or neither
+4. I think this question is good and it keeps the answers clear
+5. This is all over the place and I wouldn't put this in a poll. I would put a question like, are there any extra questions yes or no. 
+
+
+
+
+
+Next respond to the below questions:
+6. Is there anything that surprised you about the survey responses?
+Yea how detailed the answers were on the open-ended part
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to include in your morning routine, or any questions that you are also curious about?
+Yes i believe the way people prepare for their meeting inspires me to be more proactive as well
+
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help in how you approach teaching this class?
+I can learn how to teach my students better, I would also do another survey to narrow down my classes learning style.
+
+9. Again, pretend you are the instructor. Do you think it was helpful or not helpful to make this survey anonymous? Why or why not? (If you can see both pros and cons, you may include both.)
+I think it was unhelpful. Mainly because of the questions portion of the survey I am now not able to respond to each student
