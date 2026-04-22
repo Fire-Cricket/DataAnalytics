@@ -30,8 +30,6 @@ SELECT
 FROM Orders
 WHERE ShipCountry = 'France';
 
-
-
 SELECT ProductName, UnitPrice 
 FROM Products 
 WHERE UnitPrice > 50;
@@ -98,3 +96,95 @@ WHERE Region IS NOT NULL;
 SELECT CompanyName
 FROM Customers
 WHERE CompanyName LIKE 'A%';
+
+SELECT OrderID,
+CustomerID,
+OrderDate
+FROM Orders
+WHERE OrderDate = '1997-01-01';
+
+SELECT 
+    OrderID,
+    CustomerID,
+    OrderDate
+FROM Orders
+WHERE YEAR(OrderDate) = 1997
+  AND MONTH(OrderDate) = 6;
+  
+SELECT 
+    ProductName,
+    UnitPrice
+FROM Products
+ORDER BY ProductName DESC;
+
+SELECT 
+    CustomerID,
+    City,
+    Country,
+    CompanyName
+FROM Customers
+ORDER BY Country ASC, CompanyName ASC;
+
+SELECT 
+    ProductName,
+    UnitPrice
+FROM Products
+Order BY UnitPrice DESC
+LIMIT 5;
+
+SELECT 
+    ProductName,
+    UnitPrice
+FROM Products
+ORDER BY UnitPrice DESC
+LIMIT 5, 5;
+
+SELECT DISTINCT Country, City
+FROM Customers
+ORDER BY Country, City;
+
+SELECT CONCAT(FirstName, ' ', LastName) AS 'Full Name',
+Title
+FROM Employees;
+
+SELECT 
+    ProductName, 
+    UnitPrice AS 'Original Price', 
+    UnitPrice * 0.9 AS 'Price With Discount'
+FROM Products;
+
+SELECT o.OrderID, c.CompanyName AS 'Customer', o.OrderDate
+FROM Orders o
+JOIN Customers c ON o.CustomerID = c.CustomerID
+ORDER BY o.OrderDate DESC
+LIMIT 5;
+
+SELECT OrderID, CompanyName, OrderDate
+FROM Orders 
+JOIN Customers c USING (CustomerID)
+ORDER BY OrderDate 
+LIMIT 5;
+
+SELECT p.ProductName,
+       c.CategoryName,
+       p.UnitPrice
+FROM Products p
+INNER JOIN Categories c ON p.CategoryID = c.CategoryID
+ORDER BY c.CategoryName, p.ProductName
+LIMIT 6;
+
+SELECT ProductName,
+       CategoryName,
+       UnitPrice
+FROM Products 
+INNER JOIN Categories USING (CategoryID)
+ORDER BY CategoryName, ProductName
+LIMIT 6;
+
+SELECT c.CompanyName, COUNT(o.OrderID) AS OrderCount
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+GROUP BY c.CompanyName
+ORDER BY OrderCount ASC
+LIMIT 5;
+
