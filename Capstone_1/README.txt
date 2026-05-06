@@ -39,3 +39,9 @@ Also improve lower-performing stores with promotions.
 ## Conclusion
 Sales are growing, and a few stores are driving most of the revenue.  
 Focusing on those stores while improving others can help increase overall sales.
+
+---
+
+## Presentation Video
+
+https://www.youtube.com/watch?v=77A6zNUZC7k
