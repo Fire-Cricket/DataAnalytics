@@ -1,0 +1,25 @@
+#Jordan R. Worrobah
+# 5/8/2026
+'''
+states = {"New York", "California", "Texas", "Florida", "Illinois"}
+print(f"Total number of states: {len(states)}")
+print(f"Is Texas in the set? {'Texas' in states}")
+sortedStates = sorted(states)
+print(f"States in alphabetical order: {sortedStates}")
+longestState = max(states, key=len)
+print(f"Length of longest state name: {len(longestState)}")
+states.add("Georgia")
+print(f"After adding Georgia: {states}")
+states.remove("Florida")
+print(f"After chopping Florida: {states}")
+'''
+
+try:
+    day = int(input("Enter a number 1-7: "))
+    if day >= 1 and day <= 7:
+        daydict = {1 : "Sunday", 2 : "Monday", 3 : "Tuesday", 4 : "Wednesday", 5 : "Thursday", 6 : "Friday", 7 : "Saturday"}
+        print(f"Day of the week is {daydict[day]} .")
+    else:
+        print("Error: Please enter a number between 1 and 7.")
+except:
+    print("Error: Please enter a valid integer.")

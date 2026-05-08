@@ -28,3 +28,5 @@ d_str = '3 dollars'
 c_str = '50 sents'
 
 print((d_str) + " " + (c_str))
+
+print(d_str + " " + c_str)  
