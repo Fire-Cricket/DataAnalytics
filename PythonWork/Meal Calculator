@@ -1,0 +1,17 @@
+# Jordan Worrobah
+# 5/7/2026
+meal = eval(input("Enter the cost of the item: "))
+tip = 0.20
+tax = 0.0825
+
+tipamount = meal * tip
+taxamount = meal * tax
+
+totalCost = meal + tipamount + taxamount
+
+print("----- Meal Cost Breakdown -----")
+print(f"{'Meal Cost':<15} ${meal:<15.2f}")
+print(f"{'Tip (20%)':<15} ${tipamount:<15.2f}")
+print(f"{'Tax (8.25%)':<15} ${taxamount:<15.2f}")
+print("-------------------------------")
+print(f"{'Total Cost':<15} ${totalCost:<15.2f}")
