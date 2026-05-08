@@ -1,0 +1,10 @@
+states = ("New York", "California", "Texas", "Florida", "Illinois")
+print(f"Length of states: {len(states)}")
+print(f"First state: {states[0]}")
+print(f"Last state: {states[-1]}")
+print(f"Is 'Texas' in states? {'Texas' in states}")
+sortedStates = sorted(states)
+print(f"Sorted states alphabetically: {sortedStates}")
+longestState = max(states, key=len)
+print(f"Length of longest state name: {len(longestState)}")
+

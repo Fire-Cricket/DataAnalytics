@@ -38,7 +38,7 @@ ORDER BY month;
 SELECT 
     m.Region,
     m.SalesManager,
-    SUM(ss.Sale_Amount) AS 'Total Revenue'
+    SUM(ss.Sale_Amount) AS total_revenue
 FROM store_sales ss
 JOIN store_locations sl ON ss.Store_ID = sl.StoreId
 JOIN management m ON sl.State = m.State
