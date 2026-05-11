@@ -28,3 +28,18 @@ if __name__ == "__main__":
 
     except ValueError:
         print("Invalid input. Please enter a whole number.")
+
+'''
+a) How much money did your script say you had to charge per person?
+$19.74
+
+b) If you multiply that out, how much did you collect?
+$750.12
+
+c) How much were the vans?
+$750.00
+
+d) Why do you have leftover money?
+Charging $19.74 makes each person pay more, making an extra $0.12
+after collecting from everyone.
+'''
