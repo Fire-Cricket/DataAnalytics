@@ -27,4 +27,10 @@ Instead of the answer of 3.50 we get 3.5.
 d_str = '3 dollars'
 c_str = '50 sents'
 
+<<<<<<< HEAD
 print((d_str) + " " + (c_str))
+=======
+print((d_str) + " " + (c_str))
+
+print(d_str + " " + c_str)  
+>>>>>>> 056703a7183dc6578c17da377a1babf0ed51b3e9
