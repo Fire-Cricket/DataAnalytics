@@ -12,5 +12,7 @@ if __name__ == "__main__":
 
         distance = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
         print(f"The distance between the two points is: {distance:.3f}")
+        
     except ValueError:
         print("Invalid input. Please enter numeric values for the coordinates.")
+        

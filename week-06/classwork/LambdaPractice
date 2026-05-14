@@ -1,0 +1,17 @@
+# Jordan R. Worrobah
+# 5/13/2026
+# Lambda Practice
+
+
+doubler = lambda n: n * 2
+print(doubler(5))
+ 
+
+add_numbers = lambda a, b: a + b
+
+print(add_numbers(3, 7))
+
+
+largest = lambda x, y: x if x > y else y
+
+print(largest(12, 8))

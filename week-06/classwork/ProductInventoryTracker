@@ -1,0 +1,57 @@
+# Jordan R. Worrobah
+# 5/13/2026
+# Product Inventory Tracker
+
+class Product:
+
+    def __init__(self, name, category, price, quantity):
+        self.name = name
+        self.category = category
+        self.price = price
+        self.quantity = quantity
+
+    def display_info(self):
+        print(f"Product Name: {self.name}")
+        print(f"Category: {self.category}")
+        print(f"Price: ${self.price:.2f}")
+        print(f"Quantity in Stock: {self.quantity}")
+        print("-------------------")
+
+    def inventory_value(self):
+        total = self.price * self.quantity
+        print(f"Inventory Value for {self.name}: ${total:.2f}")
+        return total
+
+
+print("Welcome to the Product Inventory Tracker!")
+print("Please enter product details:")
+
+product1 = Product(
+    input("Product Name: "),
+    input("Category: "),
+    float(input("Price: ")),
+    int(input("Quantity in Stock: "))
+)
+
+print()
+
+print("Please enter details for another product:")
+
+product2 = Product(
+    input("Product Name: "),
+    input("Category: "),
+    float(input("Price: ")),
+    int(input("Quantity in Stock: "))
+)
+
+print()
+
+product1.display_info()
+product1.inventory_value()
+
+print()
+
+product2.display_info()
+product2.inventory_value()
+
+    
