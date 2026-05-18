@@ -40,7 +40,7 @@ bankBalance = savingsBalance + checkingBalance
 
 week = 0
 
-treatedMyself = False
+# treatedMyself = False
 
 passedHalfway = False
 
@@ -48,11 +48,14 @@ while bankBalance < savingsGoal:
     week +=1
     halfway = savingsGoal / 2
     bankBalance = weeklySavings + bankBalance
-    
+
     if halfway <= bankBalance and not passedHalfway:
         print(f"Almost there! Week {week} my balance is up to ${bankBalance:.2f}.")
         passedHalfway = True
+    if week <= 10:
+        print(f"Week {week}: This week my balance increased to ${bankBalance}.")
 
+'''
     if bankBalance >= savingsGoal * 0.75 and not treatedMyself:
 
         treat = 25
@@ -61,8 +64,6 @@ while bankBalance < savingsGoal:
 
 
         print(f"So close! After treating myself, my balance is up to ${bankBalance:.2f}.")
-
-    if week <= 10:
-        print(f"Week {week}: This week my balance increased to ${bankBalance}.")
+'''
 
 print(f"Goal met by week: {week}! My current balance is ${bankBalance}.")
