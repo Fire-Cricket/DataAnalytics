@@ -1,0 +1,34 @@
+import pandas as pd 
+import numpy as np
+
+sequence = pd.Series([10, 20, 30, 20, np.nan])
+
+print(sequence)
+print()
+
+print(sequence.sum())
+print()
+
+print(sequence.mean())
+print()
+
+print(sequence.max())
+print()
+
+print(sequence.min())
+print()
+
+print(sequence.head(3))
+print()
+
+print(sequence.isnull())
+print()
+
+print(sequence.fillna(0))
+print()
+
+print(sequence.sort_values())
+print()
+
+print(sequence.value_counts())
+
