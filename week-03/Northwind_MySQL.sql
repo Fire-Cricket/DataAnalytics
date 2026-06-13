@@ -1,11 +1,3 @@
-﻿# ---------------------------------------------------------------------- #
-# Target DBMS:           MySQL 
-# Project name:          Northwind 
-# Author:                Valon Hoti for MySQL5, 2010-07-07 
-# Created on:            2010-07-07 
-# Provided courtesy:     https://www.aspsnippets.com/Articles/998/Download-and-Install-Microsoft-Northwind-Sample-database-in-MySql/ 
-# Updated:               2026-02-20 
-# ---------------------------------------------------------------------- #
 
 DROP DATABASE IF EXISTS northwind;
 
@@ -127,7 +119,7 @@ CREATE TABLE `Order Details` (
     `ProductID` INTEGER NOT NULL,
     `UnitPrice` DECIMAL(10,4) NOT NULL DEFAULT 0,
     `Quantity` SMALLINT(2) NOT NULL DEFAULT 1,
-    `Discount` REAL(8,0) NOT NULL DEFAULT 0,
+    `Discount` REAL(4,2) NOT NULL DEFAULT 0,
     CONSTRAINT `PK_Order Details` PRIMARY KEY (`OrderID`, `ProductID`)
 );
 
