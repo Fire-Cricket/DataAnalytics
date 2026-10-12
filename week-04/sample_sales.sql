@@ -461915,16 +461915,16 @@ INSERT INTO Inventory_Categories (CategoryID, Category, Description) VALUES
   (115, 'Art Supplies', 'Paints, brushes, sketchbooks, and drafting tools');
 
 -- ------------------------------------------------------------
--- Table: Inventory_Subategories
+-- Table: Inventory_Subcategories
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS Inventory_Subategories;
-CREATE TABLE Inventory_Subategories (
+CREATE TABLE Inventory_Subcategories (
   SubcategoryID VARCHAR(255) PRIMARY KEY,
   CategoryID INT,
   Subcategory VARCHAR(255)
 );
 
-INSERT INTO Inventory_Subategories (CategoryID, SubcategoryID, Subcategory) VALUES
+INSERT INTO Inventory_Subcategories (CategoryID, SubcategoryID, Subcategory) VALUES
   (120, '120-tab', 'Tablets'),
   (120, '120-cal', 'Calculators'),
   (120, '120-sof', 'Software Download'),
@@ -461985,10 +461985,10 @@ DROP TABLE IF EXISTS Store_Locations;
 CREATE TABLE Store_Locations (
   StoreLocation VARCHAR(255),
   State VARCHAR(255),
-  StoreId INT PRIMARY KEY
+  Store_Id INT PRIMARY KEY
 );
 
-INSERT INTO Store_Locations (StoreLocation, State, StoreID) VALUES
+INSERT INTO Store_Locations (StoreLocation, State, Store_ID) VALUES
   ('Aurora', 'Colorado', 701),
   ('Berthoud', 'Colorado', 702),
   ('Boulder', 'Colorado', 703),
@@ -462183,7 +462183,7 @@ INSERT INTO Shipper_List (ShiptoState, PreferredShipper, VolumeDiscount) VALUES
 -- );
 
 -- INSERT INTO Store_List (Store_ID, City, State)
--- SELECT StoreId, StoreLocation, State FROM Store_Locations;
+-- SELECT Store_Id, StoreLocation, State FROM Store_Locations;
 
 -- -- Online virtual stores (one per ship-to state)
 -- INSERT INTO Store_List (Store_ID, City, State) VALUES
